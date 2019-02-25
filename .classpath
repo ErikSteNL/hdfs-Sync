@@ -3,19 +3,12 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/hadoop-annotations.jar"/>
-	<classpathentry kind="lib" path="/usr/lib/hadoop/hadoop-annotations-2.6.0-cdh5.13.0.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/hadoop-auth.jar"/>
-	<classpathentry kind="lib" path="/usr/lib/hadoop/hadoop-auth-2.6.0-cdh5.13.0.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/hadoop-aws.jar"/>
-	<classpathentry kind="lib" path="/usr/lib/hadoop/hadoop-aws-2.6.0-cdh5.13.0.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/hadoop-azure-datalake.jar"/>
-	<classpathentry kind="lib" path="/usr/lib/hadoop/hadoop-azure-datalake-2.6.0-cdh5.13.0.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/hadoop-common.jar"/>
-	<classpathentry kind="lib" path="/usr/lib/hadoop/hadoop-common-2.6.0-cdh5.13.0.jar"/>
-	<classpathentry kind="lib" path="/usr/lib/hadoop/hadoop-common-2.6.0-cdh5.13.0-tests.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/hadoop-common-tests.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/hadoop-nfs.jar"/>
-	<classpathentry kind="lib" path="/usr/lib/hadoop/hadoop-nfs-2.6.0-cdh5.13.0.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/parquet-avro.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/parquet-cascading.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/parquet-column.jar"/>
@@ -50,7 +43,6 @@
 	<classpathentry kind="lib" path="/usr/lib/hadoop/client/aws-java-sdk-bundle.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/client/aws-java-sdk-bundle-1.11.134.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/client/azure-data-lake-store-sdk.jar"/>
-	<classpathentry kind="lib" path="/usr/lib/hadoop/client/azure-data-lake-store-sdk-2.2.3.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/client/commons-beanutils.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/client/commons-beanutils-1.9.2.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/client/commons-beanutils-core.jar"/>
@@ -90,35 +82,20 @@
 	<classpathentry kind="lib" path="/usr/lib/hadoop/client/guava.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/client/guava-11.0.2.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/client/hadoop-annotations.jar"/>
-	<classpathentry kind="lib" path="/usr/lib/hadoop/client/hadoop-annotations-2.6.0-cdh5.13.0.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/client/hadoop-auth.jar"/>
-	<classpathentry kind="lib" path="/usr/lib/hadoop/client/hadoop-auth-2.6.0-cdh5.13.0.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/client/hadoop-aws.jar"/>
-	<classpathentry kind="lib" path="/usr/lib/hadoop/client/hadoop-aws-2.6.0-cdh5.13.0.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/client/hadoop-azure-datalake.jar"/>
-	<classpathentry kind="lib" path="/usr/lib/hadoop/client/hadoop-azure-datalake-2.6.0-cdh5.13.0.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/client/hadoop-common.jar"/>
-	<classpathentry kind="lib" path="/usr/lib/hadoop/client/hadoop-common-2.6.0-cdh5.13.0.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/client/hadoop-hdfs.jar"/>
-	<classpathentry kind="lib" path="/usr/lib/hadoop/client/hadoop-hdfs-2.6.0-cdh5.13.0.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/client/hadoop-mapreduce-client-app.jar"/>
-	<classpathentry kind="lib" path="/usr/lib/hadoop/client/hadoop-mapreduce-client-app-2.6.0-cdh5.13.0.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/client/hadoop-mapreduce-client-common.jar"/>
-	<classpathentry kind="lib" path="/usr/lib/hadoop/client/hadoop-mapreduce-client-common-2.6.0-cdh5.13.0.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/client/hadoop-mapreduce-client-core.jar"/>
-	<classpathentry kind="lib" path="/usr/lib/hadoop/client/hadoop-mapreduce-client-core-2.6.0-cdh5.13.0.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/client/hadoop-mapreduce-client-jobclient.jar"/>
-	<classpathentry kind="lib" path="/usr/lib/hadoop/client/hadoop-mapreduce-client-jobclient-2.6.0-cdh5.13.0.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/client/hadoop-mapreduce-client-shuffle.jar"/>
-	<classpathentry kind="lib" path="/usr/lib/hadoop/client/hadoop-mapreduce-client-shuffle-2.6.0-cdh5.13.0.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/client/hadoop-yarn-api.jar"/>
-	<classpathentry kind="lib" path="/usr/lib/hadoop/client/hadoop-yarn-api-2.6.0-cdh5.13.0.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/client/hadoop-yarn-client.jar"/>
-	<classpathentry kind="lib" path="/usr/lib/hadoop/client/hadoop-yarn-client-2.6.0-cdh5.13.0.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/client/hadoop-yarn-common.jar"/>
-	<classpathentry kind="lib" path="/usr/lib/hadoop/client/hadoop-yarn-common-2.6.0-cdh5.13.0.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/client/hadoop-yarn-server-common.jar"/>
-	<classpathentry kind="lib" path="/usr/lib/hadoop/client/hadoop-yarn-server-common-2.6.0-cdh5.13.0.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/client/htrace-core4.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/client/htrace-core4-4.0.1-incubating.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/client/httpclient.jar"/>
@@ -130,11 +107,8 @@
 	<classpathentry kind="lib" path="/usr/lib/hadoop/client/jackson-core.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/client/jackson-core-2.2.3.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/client/jackson-databind.jar"/>
-	<classpathentry kind="lib" path="/usr/lib/hadoop/client/jackson-databind-2.2.3.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/client/jackson-jaxrs.jar"/>
-	<classpathentry kind="lib" path="/usr/lib/hadoop/client/jackson-jaxrs-1.8.8.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/client/jackson-xc.jar"/>
-	<classpathentry kind="lib" path="/usr/lib/hadoop/client/jackson-xc-1.8.8.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/client/jaxb-api.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/client/jaxb-api-2.2.2.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/client/jersey-client.jar"/>
