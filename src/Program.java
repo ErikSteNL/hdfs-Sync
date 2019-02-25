@@ -21,7 +21,6 @@ public class Program {
 		if(args.length != 2){
 			System.out.println("Please enter 2 arguments localPath, hdfsPath");
 		}
-		//TODO, Check if args are paths
 		
 		System.out.println(args[0]);
 		String localPath = checkFilePath(args[0]);
@@ -98,7 +97,6 @@ public class Program {
 				System.out.println("\nCopied: " + localPath + file + " to: " + hdfsPath + file);
 
 			} catch (IllegalArgumentException | IOException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
@@ -125,6 +123,7 @@ public class Program {
 		return toBeCopied;
 	}
 	
+	@SuppressWarnings("deprecation")
 	public static void deleteFromHDFS(FileSystem fs, String hdfsPath, List<String> toBeDeleted){
 		
 		for (String file : toBeDeleted){
@@ -132,10 +131,8 @@ public class Program {
 				fs.delete(new Path(hdfsPath + file));
 				System.out.println("\nDeleted: " + hdfsPath + file);
 			} catch (IllegalArgumentException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
@@ -176,13 +173,10 @@ public class Program {
 		try {
 			return fs.listStatus(new Path(hdfsPath));
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (IllegalArgumentException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
